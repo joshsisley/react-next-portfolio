@@ -86,7 +86,7 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 
 				<Education education={education} />
 
-				<div className="flex justify-center mt-8">
+				{/* <div className="flex justify-center mt-8">
 					<Button
 						href="/cv-2021.pdf"
 						download={true}
@@ -99,7 +99,7 @@ const AboutPage: NextPage<IProps> = ({ podcasts, jobs, education }) => {
 							Download my CV
 						</div>
 					</Button>
-				</div>
+				</div> */}
 			</Container>
 		</AnimatePage>
 	);
