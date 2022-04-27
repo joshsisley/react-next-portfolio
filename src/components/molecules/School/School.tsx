@@ -8,7 +8,6 @@ export interface SchoolProps {
 	institute: ICompany;
 	course: string;
 	date: string;
-	technologies: string[];
 }
 
 const School = ({ institute, course, date }: SchoolProps) => {

@@ -1,11 +1,9 @@
 query AboutPageQuery {
-	podcasts(orderBy: position_ASC) {
+	podcasts(orderBy: name_DESC) {
 		id
 		name
 		url
-		logo {
-			url
-		}
+		logo
 	}
 	jobs(orderBy: fromDate_DESC) {
 		id
@@ -13,32 +11,15 @@ query AboutPageQuery {
 		fromDate
 		toDate
 		description {
-			markdown
+			raw
 		}
 		company {
 			name
 			url
-			logo {
-				url
-			}
+			logo
 		}
 		skills {
 			skill
-		}
-	}
-	educations(orderBy: date_DESC) {
-		id
-		course
-		date
-		courseContents {
-			skill
-		}
-		institute {
-			name
-			url
-			logo {
-				url
-			}
 		}
 	}
 }

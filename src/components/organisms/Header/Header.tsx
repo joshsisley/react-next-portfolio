@@ -13,10 +13,10 @@ export const navItems = [
 		href: '/about',
 		title: 'My Experience',
 	},
-	// {
-	// 	href: '/uses',
-	// 	title: 'Uses',
-	// },
+	{
+		href: '/uses',
+		title: 'Uses',
+	},
 	// {
 	// 	href: '/case-studies',
 	// 	title: 'Case Studies',

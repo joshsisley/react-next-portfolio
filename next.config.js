@@ -1,4 +1,4 @@
-const { withSentryConfig } = require('@sentry/nextjs');
+// const { withSentryConfig } = require('@sentry/nextjs');
 
 const moduleExports = {
 	poweredByHeader: false,
@@ -33,4 +33,4 @@ const sentryWebpackPluginOptions = {
 	// https://github.com/getsentry/sentry-webpack-plugin#options.
 };
 
-module.exports = withSentryConfig(moduleExports, sentryWebpackPluginOptions);
+module.exports = moduleExports;
